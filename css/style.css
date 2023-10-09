@@ -234,24 +234,57 @@ section.contact a:hover {
     }
     h1{
         font-size: 60px;
+        text-align: center;
     }
     h2{
-        font-size: 40px;
+        /*font-size: 40px;*/
+        font-size: 5vw;
         margin-left: 20px;
+        justify-content: center;
+        text-align: center;
+        padding-top: 10px;
+        padding-right: 15px;
+    }
+    p {
+        font-size: .8rem;
     }
     nav ul li{
         margin-left: 25px;
     }
-
+    section.about article .title{
+        padding-top: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 55px;
+    }
+    section.about article .description p {
+        font-size: .7rem;
+         padding: 10px;
+    }
+    span {
+        
+    }
     section.service article {
         flex-direction: column;
+        padding: 20px;
     }
     section.service figure{
-        flex-basis: 25vh;
+        display: none;
+        align-items: flex-start ;
     }
     section.service figure img{
         width: 20%;
     }
+    /*display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 56.25vw;
+    margin: 0;
+    background: #d0ff94;
+    border-radius: 100px;
+    max-width: 62.5vw;
+    transition: flex-basis 1s cubic-bezier(0, .9, .4, .99);*/
 
     section.contact a{
         font-size: 40px;
