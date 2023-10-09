@@ -92,7 +92,8 @@ section.about article{
 section.about article .title{
     flex: 1;
     display: flex;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     background: #41EAD4;
     border-radius: 100px;
     padding: 3.125vw;
